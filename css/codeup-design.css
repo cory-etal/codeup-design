@@ -1,0 +1,42 @@
+body{
+    background-color: #e6e6e6;
+    /*background-color: #f0f0f0;*/
+    font-family: "Able", sans-serif;
+}
+
+h1 ,h2 ,h3, h4 {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+}
+
+h1{
+    height: 64px;
+}
+
+.cd_navbar {
+    margin-top: 2em;
+    background-color: white;
+    height: 50px;
+}
+
+.logo {
+    float: left;
+    margin-top: -1.6em;
+    /*margin-left: 2em;*/
+    /*background-color: transparent;*/
+    /*position: static;*/
+}
+
+.circle {
+    border-radius: 50%;
+    height: 105px;
+    width:105px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.circle_small {
+
+
+}
