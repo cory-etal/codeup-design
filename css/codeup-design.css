@@ -13,15 +13,9 @@ h1{
     height: 64px;
 }
 
-.cd_navbar {
-    margin-top: 2em;
-    background-color: white;
-    height: 50px;
-}
-
 .logo {
     float: left;
-    margin-top: -1.6em;
+    margin-top: -2.5em;
     /*margin-left: 2em;*/
     /*background-color: transparent;*/
     /*position: static;*/
@@ -31,12 +25,91 @@ h1{
     border-radius: 50%;
     height: 105px;
     width:105px;
-    text-align: center;
-    position: relative;
-    box-sizing: border-box;
+    /*text-align: center;*/
+    /*position: relative;*/
+    /*box-sizing: border-box;*/
 }
 
 .circle_small {
 
 
 }
+
+.cd_nav{
+    margin-top:30px;
+    height: 60px;
+}
+
+.nav-row{
+    height: 60px;
+}
+
+.logo {
+    margin-top: -1.6em;
+    position: relative;
+}
+
+.brand-name{
+
+    font-size: 1.7em;
+    margin-top: .7em;
+
+}
+
+.nav-item{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: .8em;
+}
+
+.nav-link{
+    color: black;
+    /*position: static;*/
+}
+
+
+
+
+/*@media screen and (max-width: 768px) {*/
+
+    /*.nav-item{*/
+        /*float: left;*/
+    /*}*/
+
+    /*.nav-item-left{*/
+        /*float: left;*/
+        /*position: relative;*/
+    /*}*/
+
+    /*.nav-item-right{*/
+        /*float: right;*/
+        /*position: relative;*/
+    /*}*/
+
+    /*.brand-name{*/
+        /*clear: both;*/
+    /*}*/
+/*}*/
+
+
+/*!* Medium devices+ *!*/
+/*@media screen and (min-width: 768px) {*/
+
+    /*.brand-name {*/
+        /*float: left;*/
+        /*position: static;*/
+    /*}*/
+
+    /*.logo{*/
+        /*!*float: left;*!*/
+    /*}*/
+
+    /*.nav-item{*/
+        /*float: right;*/
+        /*!*margin-top: .2em;*!*/
+        /*position: static;*/
+    /*}*/
+
+
+/*}*/
+
